@@ -3,8 +3,8 @@ let bodyParser = require('body-parser')
 let request = require('request')
 let app = express()
 
-const FACEBOOK_ACCESS_TOKEN = 'EAAEDA93cGNwBAJ6ZB2BBl1BeuMqqjYKEezbjeXK4QmY13YZC5332xKcIhz4b7vZAroal6sl4xdz5h9PDUIZC30CZBGUSP'
-//const FACEBOOK_ACCESS_TOKEN = 'EAAEDA93cGNwBAPYrXWvbvsCngPrIrxCk5AFnYpSCMbVQt8GHCSXKEGvbxzTXMB5UgEUx4aAEdeQyhaW02ZAQRRSoUL'
+//const FACEBOOK_ACCESS_TOKEN = 'EAAEDA93cGNwBAJ6ZB2BBl1BeuMqqjYKEezbjeXK4QmY13YZC5332xKcIhz4b7vZAroal6sl4xdz5h9PDUIZC30CZBGUSP'
+const FACEBOOK_ACCESS_TOKEN = 'EAAEDA93cGNwBAPYrXWvbvsCngPrIrxCk5AFnYpSCMbVQt8GHCSXKEGvbxzTXMB5UgEUx4aAEdeQyhaW02ZAQRRSoUL'
 const PORT = process.env.PORT || 3000
 //const VERIFY_TOKEN = 'Your_Verify_Token'
 const VERIFY_TOKEN = 'handelbot0921'
